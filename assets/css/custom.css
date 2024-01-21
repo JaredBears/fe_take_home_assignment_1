@@ -6,6 +6,13 @@
   background-color: #FF5A43 !important;
 }
 
+.bg {
+  background-image: url("/assets/images/illustration.png") !important;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+}
+
 a {
   color: #FF5A43 !important;
 }
