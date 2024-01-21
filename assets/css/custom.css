@@ -13,3 +13,7 @@ a {
 a:hover {
   color: #FF5A43 !important;
 }
+
+footer p {
+  font-size: 8px !important;
+}
