@@ -22,5 +22,15 @@ footer p {
   width: 20px;
   height: 20px;
   background-color: #82D566;
-  margin-left: 22.5vw;
+  margin-left: 5.75vw;
+}
+
+@media screen and (max-width: 768px) {
+  #square {
+    width: 20px;
+    height: 20px;
+    background-color: #82D566;
+    margin-left: 14.75vw;
+  }
+  
 }
