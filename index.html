@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="/assets/css/custom.css" rel="stylesheet">
     <title>Take Home Assignment</title>
 </head>
@@ -15,24 +16,62 @@
             <div class="col-3 sidebar">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
                     <a href="/" class="d-flex align-items-center pt-5 pb-3 mb-md-0 me-md-auto text-decoration-none">
-                        <img src="/assets/images/DPI-Logo.png" alt="DPI Logo" width="50%" id="logo"/>
+                        <img src="/assets/images/DPI-Logo.png" alt="DPI Logo" width="50%" id="logo" />
                     </a>
-                    <a href="/" class="d-flex align-items-center pt-5 pb-3 mb-md-0 me-md-auto text-decoration-none" >
-                        <img src="/assets/images/Nav-course icon-solid.svg" alt="Course Icon" id="course-icon" class="pe-3"/>
+                    <a href="/" class="d-flex align-items-center pt-5 pb-3 mb-md-0 me-md-auto text-decoration-none">
+                        <img src="/assets/images/Nav-course icon-solid.svg" alt="Course Icon" id="course-icon"
+                            class="pe-3" />
                         Courses
                     </a>
-                    <a href="/" class="d-flex align-items-center pt-5 pb-3 mb-md-0 me-md-auto text-decoration-none text-white" onmouseover="document.getElementById('logout-icon').src='/assets/images/Nav-logout icon-solid.svg';" onmouseout="document.getElementById('logout-icon').src='/assets/images/Nav-logout icon-hollow-white.png';" >
-                        <img src="/assets/images/Nav-logout icon-hollow-white.png" alt="Logout Icon" id="logout-icon" class="pe-3"/>
+                    <a href="/"
+                        class="d-flex align-items-center pt-5 pb-3 mb-md-0 me-md-auto text-decoration-none text-white"
+                        onmouseover="document.getElementById('logout-icon').src='/assets/images/Nav-logout icon-solid.svg';"
+                        onmouseout="document.getElementById('logout-icon').src='/assets/images/Nav-logout icon-hollow.svg';">
+                        <img src="/assets/images/Nav-logout icon-hollow.svg" alt="Logout Icon" id="logout-icon"
+                            class="pe-3" />
                         Logout
                     </a>
                 </div>
             </div>
             <div class="col-9">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl vitae n
+                <h1>My Courses</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/images/card bg-1.png" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <img src="/assets/images/card thumbnail.png" alt="..." class="pt-3" height="35%">
+                                <h5 class="card-title">Introduction to Software Development Foundations (2023-7.1)</h5>
+                                <div class="card-text pt-3">
+                                    <p class="card-text">In Progress</p>
+                                    <div class="progress card-text">
+                                        <div class="progress-bar w-75 progress-bar-orange" role="progressbar"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                    <a href="/">
+                                        <img src="/assets/images/arrow-default.png" alt="..." onmouseover="this.src='/assets/images/arrow-hover.png';"
+                                            onmouseout="this.src='/assets/images/arrow-default.png';" onmousedown="this.src='/assets/images/arrow-pressed.png';">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/images/card bg-2.png" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <img src="/assets/images/card thumbnail 2.png" alt="..." class="pt-3" height="35%">
+                                <h5 class="card-title">Introduction to Software Development Foundations (2023-7.1)</h5>
+                                <p class="card-text pt-5">Start Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
