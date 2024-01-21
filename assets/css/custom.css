@@ -17,3 +17,10 @@ a:hover {
 footer p {
   font-size: 8px !important;
 }
+
+#square {
+  width: 20px;
+  height: 20px;
+  background-color: #82D566;
+  margin-left: 22.5vw;
+}
