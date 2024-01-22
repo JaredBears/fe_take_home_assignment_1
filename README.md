@@ -20,6 +20,8 @@ It appears the Course Grid takes up the remaining 75% of the page in both screen
 
 ### Course Cards
 
+The sylabus icon in the image was not provided, so I used the `Nav-course icon-hollow.svg` file.
+
 ## Notes
 
 At the moment, this is only a mockup of a front-end application designed to appear as close as possible to the provided imagery, primarily with HTML and CSS.  It will need substantial modifications to be incorporated into any full-stack application.
